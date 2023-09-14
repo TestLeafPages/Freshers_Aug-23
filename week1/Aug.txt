@@ -1,0 +1,75 @@
+Maven Project:
+ File --> new
+           -->Project
+            --->Maven -->Maven Project
+   1.Click on  Maven Project and click next button
+   2.Enable the create a simple project check box
+   3.Click on next button
+   4.Enter group id -->shouls be in lowercase
+   5.Enter Artifact Id 
+   6.Click on finish
+
+
+src/main/java---> only use .java files -->  dev team
+
+src/test/java  ---> Tester
+
+other than .java files xlsx,xlx,config.properties, properties
+src/main/resource
+src/test/resource
+
+Java:
+1.Object oriented programming Language
+2.Open Source
+3.High level programmming language
+
+Class:
+A Class is a group of object which have common proprties, It is a blue print or template from which objects are created, A java class contain field, method, variables constructor and  block of code.
+
+
+method:
+public void applyBreak( Aruguments if needed){
+-------
+}
+here,
+public -- Access Modifier
+void -- return type
+applyBreak-- name of the method
+
+Object :
+An Instance of a class is called Object
+Object is  real time entity or real world entity
+
+Syntax for Object creation:
+ClassName objectname =new ClassName();
+
+ClassName -- Pascal Notations
+     Start with capital letter , When we have multiple words, second word onwards init should be capital
+
+objectName ,variableName, methodName --camel case
+Start with lower case , When we have multiple words, second word onwards init should be capital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
