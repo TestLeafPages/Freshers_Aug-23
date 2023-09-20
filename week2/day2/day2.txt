@@ -1,0 +1,158 @@
+Variables:
+ Variables is container to store the values,
+ Variables assigned with data types.
+
+Types:
+1.Local Variables
+2.Global Variables
+3.static Variables
+
+Local Variables                 Global Variables
+1.If you are declaring the   If you are declaring the
+variables inside a method   variables outside of a method 
+that is called as local     and inside a class that is 
+variables                   called as Global Variables
+
+2.We can use Access        We can not use any Accsss
+Modifiers in Global        Modifiers in local variables
+Variables
+
+
+Acess Modifiers:
+1.public  -- with in a project
+2.private  -- with in class
+3.protected   --we can use same packages, we can able to use another packages also but the class should be inherited
+4.default (or) packages  -- with in packages
+
+
+
+
+Swapping between Two Number
+int a=50;
+int b=100;
+
+
+output:
+a=100;
+b=50;
+
+System.out.println("1");
+System.out.println("2");
+System.out.println("3");
+System.out.println("4");
+System.out.println("5");
+
+
+for(Initialization; Condition;Incremet/Decrement){
+
+execution
+}
+
+
+for(int a=5; a<10;a++){
+System.out.println(a);
+}
+
+1.Initialization
+2.Condition
+3.Execution
+4.Increment/Decrement
+
+10  to 1
+10\
+9
+8
+7
+
+
+for (int i=10;i>=1;i--){
+System.out.println(i);
+}
+
+
+
+
+
+
+
+
+for (int i = 5; i >= 1; i--) {//5 4 3 2 1
+i=5:
+fact=i*fact;
+//1 =5 *1
+//fact=5
+
+i=4;
+fact=i*fact;
+//5 =4 *5
+//fact=20
+
+i=3;
+fact=i*fact;
+//20 =3 *20
+//fact=60
+
+i=2;
+fact=i*fact;
+//60 =2 *60
+//fact=120
+
+i=1;
+fact=i*fact;
+//120 =1 *120
+//fact=120
+
+
+
+		System.out.println(fact);
+	}
+	
+
+
+
+
+
+
+
+1*10=10
+2*10=20
+
+
+for(int i=1;i<=10;i++){
+System.out.println(i+"*"+"10"+"=");
+}
+1*10=
+2*
+3*
+4*
+5*
+6
+7
+
+
+*
+**
+***
+****
+*****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
