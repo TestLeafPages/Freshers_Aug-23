@@ -1,0 +1,251 @@
+Array
+  Array is a container to store multiple values in same data types
+ Array is a collection of similar data types
+
+int a=10;
+int b=20;
+int c=30;
+
+int[] values={10,20,30};
+
+Types:
+1.Single Dimensional
+2.Multi Dimensional
+
+How will you declare an Array
+   1.Array literal
+int[] values={10,20,30};
+   2.Array using new keyword
+     int[] values=new int[5];
+
+1.Size is fixied
+2.Starting index from 0
+
+data types:
+int       int[]
+float     float[]
+byte      byte[]
+short     short[]
+boolean   boolean[]
+long      long[]
+double    double[]
+char      char[]
+
+int , short, long , byte : 0
+double, float : 0.0
+String : null
+boolean : false
+char  : 
+
+
+
+public class PrintDescendingOrder{
+
+public static void main(String[] args){
+
+//Initialize an Array values
+int[] number={100,20,80,10,50,30};
+
+//sort the values in given Array
+Arrays.sort(number);
+
+10,20,30,50,80,100
+   6 -1
+for(int i=number.length-1;i>=0;i--){
+System.out.println(number[i]);
+}
+}
+}
+
+
+Find Intersection
+int[] number1={1,2,4,6,8,9};
+int[] number2={1,5,2,3,7,4};
+
+//1,2,4
+int[] val= {1,2,3,4,5};
+     index 0,1,2,3,4
+                 0<5
+for (int i = 0; i <arraySize ; i++) {
+System.out.println(i+"  "+val[i]);
+		
+// out put 1
+i=1;             1<5
+for (int i = 1; i <arraySize ; i++) {
+System.out.println(i+"  "+val[i]);
+// out put 2	}
+
+i=2;             2<5
+for (int i = 2; i <arraySize ; i++) {
+System.out.println(i+"  "+val[i]);
+// out put 3	}
+
+i=3;             3<5
+for (int i = 3; i <arraySize ; i++) {
+System.out.println(i+"  "+val[i]);
+// out put 4	}
+i=4;             4<5
+for (int i = 4; i <arraySize ; i++) {
+System.out.println(i+"  "+val[i]);
+// out put 5	}
+
+i=5;             5<5
+for (int i = 5; i <arraySize ; i++) {
+System.out.println(i+"  "+val[i]);
+// out put 3	}
+
+
+
+public class PrintDuplicate{
+public static void main(String[] args){
+
+//Initialize the Arrays
+int[] number={1,3,4,6,8,2,5,8,3,1};
+//output 1,3,8
+
+for(int i=0; i<number.length;i++){
+
+    for(int j=i+1;j<number.length;j++){   
+outer loop  innerloop
+  i           j
+  0           1 --> 1==3
+              2 -->1==4
+              3 -->1==6
+              4 -->1==8
+              5 -->1==2
+              6--> 1==5
+              7-->1==8
+              8-->1==3
+              9 --> 1==1 condition true, If block gets execute..
+                                1 will be printed here...
+
+0  0+1=j=1
+                                          1 -==3
+        if(number[i]==number[j]){
+                
+System.out.println(number[i]);
+}
+}
+}
+
+
+
+
+Find missing number
+int[] num= {1,2,3,4,7,6,8};
+
+int sum1=0;
+   1+2+3+4+5+7+6+8=36
+
+
+{1+2+3+4+7+6+8}=31
+
+36-31=5
+
+
+
+1
+2
+3 three
+4
+5
+
+
+
+
+
+
+Goal: To understand the arthimetic operation and loop
+
+a) Create a class by name: Fibbinocci
+b) Create a main method using shortcut
+c) Write a logic to print fibbinocci from 0 to 56
+
+
+//Initialize 3 int variables (Tip: firstNum = 0, secNum = 1, sum = 0)
+
+int firstNumber=0;
+int secondNumber=1;
+int sum=0;
+0  1  1  2  3  5  8  13  21  34  55  89  144
+sum=firstNumber+secondNumber;
+//1 =   0    +1
+    firstNumber=secondNumber;
+     1
+   secondNumber=sum;
+    1
+ f   s   sum
+ 0   1    1
+ 1   1    2
+ 1   2    3
+ 2   3    5
+ 3   5    8
+ 5   8    13
+ 8   13    21
+  13  21   34
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+Print first number
+Iterate from 1 to the 11
+Add first and second number assign to sum
+Assign second number to the first number
+Assign sum to the second number
+Print sum
+
+
+
+
+
+
+
+
+
+
+98
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
