@@ -1,0 +1,73 @@
+====Selenium====
+Selenium can automate only web based applications
+2.Selenium is open source library or tool
+3.It support multiple browser chrome, edge, safari, firefox and opera
+4.IT support mutiple os Windows, mac, linux..
+
+
+language Binding --> w3c protocol --->driver --->ChromeBrowser
+
+
+https://www.instagram.com/
+https://www.facebook.com/
+
+<html>
+  <head> </head>
+   <body> <body>
+</html>
+
+<label>  -- label
+<a>   - hyper link
+<Select> -- drodpdown tag 
+<option>
+<iframe>  -- frames
+<table>
+<div>
+<p> paragraph
+<input>
+
+
+Selenium Locators:
+ 1.id  --unique
+ id ='username' 
+id ='ext-gen868'  lead =10010
+ext-gen877
+ 2.name --unique
+      
+ 3.className
+class=decorativeSubmit   class=decorative Submit
+ 4.linkText
+ 5.partialLinkText
+ 6.tagName
+ 7.cssSelector
+ 8.xpath
+
+Selenium Locators:  when to use       when do not use
+ 1.id               --unique         if id has number
+                                    don't use id, It will be                                        changing randomly
+
+ 2.name             --unique        multiple matches
+
+ 3.className         unique         If it is has white
+                                    space in between
+
+ 4.linkText       if tag name is a
+
+ 5.partialLinkText
+
+ 6.tagName           unique
+ 7.cssSelector   
+ 8.xPath          If none of the above
+
+Dom open
+  1. right click --> Inspect
+  2. press F12
+  3. Press ctrl+shift+i
+  4. click on More tools --> devloper tools
+
+
+
+
+Url:http://leaftaps.com/opentaps/control/login
+User Name:Demosalesmanager
+Password : crmsfa
