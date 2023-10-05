@@ -1,0 +1,139 @@
+====Selenium====
+Selenium can automate only web based applications
+2.Selenium is open source library or tool
+3.It support multiple browser chrome, edge, safari, firefox and opera
+4.IT support mutiple os Windows, mac, linux..
+
+
+Selenium Component:
+Selenium IDE
+Selenium Grid
+Selenium  WebDriver
+
+language Binding --> w3c protocol --->driver --->ChromeBrowser
+
+
+https://www.instagram.com/
+https://www.facebook.com/
+
+<html>
+  <head> </head>
+   <body> <body>
+</html>
+
+<label>  -- label
+<a>   - hyper link
+<Select> -- drodpdown tag 
+<option>
+<iframe>  -- frames
+<table>
+<div>
+<p> paragraph
+<input>
+
+
+Selenium Locators:
+ 1.id  --unique
+ id ='username' 
+id ='ext-gen868'  lead =10010
+ext-gen877
+ 2.name --unique
+      
+ 3.className
+class=decorativeSubmit   class=decorative Submit
+ 4.linkText
+ 5.partialLinkText
+ 6.tagName
+ 7.cssSelector
+ 8.xpath
+
+Selenium Locators:  when to use       when do not use
+ 1.id               --unique         if id has number
+                                    don't use id, It will be                                        changing randomly
+
+ 2.name             --unique        multiple matches
+
+ 3.className         unique         If it is has white
+                                    space in between
+
+ 4.linkText       if tag name is a
+
+ 5.partialLinkText
+
+ 6.tagName           unique
+ 7.cssSelector   
+ 8.xPath          If none of the above
+
+Dom open
+  1. right click --> Inspect
+  2. press F12
+  3. Press ctrl+shift+i
+  4. click on More tools --> devloper tools
+
+
+
+
+Url:http://leaftaps.com/opentaps/control/login
+User Name:Demosalesmanager
+Password : crmsfa
+
+
+
+Select Value from Dropdown
+ selectByValue 
+ Best Practise: Multi lingual Project
+
+ selectByVisibleText 
+  Best Practise: plane English Project
+ selectByindex
+   Best Practise: To select values rondomly
+
+Xpath:
+   XML Path
+   Extensible Markup Language
+ 1.Absolute Xpath
+ 2.Relative Xpath
+
+Absolute Xpath
+ 1.Starting from root node
+ 2.Start with single slash(/)
+  
+/html/body/div[2]/div[2]/div/form/p/input
+
+Relative Xpath
+  1.Starting from current node
+  2.Start with double slash(//)
+
+
+1.Attribute based Xpath
+//tagname[@attribute='attributeValue']
+
+//input[@id='username']
+
+2.Text based xpath
+//tagName[text()='textValue']
+
+//span[text()='Apple iPhone 14 (128 GB) - Blue']
+
+3.Index based xpath
+(//tagname[@attribute='attributeValue'])[index]
+
+4.Contains based xpath:
+//TagName[contains(@attribute,'partialAttributeValue')]
+//TagName[contains(text(),'partialTextValue')]
+
+//div[@class='ui-widget ui-widget-content ui-corner-all ui-shadow keypad-popup ui-input-overlay']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
