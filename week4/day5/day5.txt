@@ -1,0 +1,52 @@
+      Axes Xpath/Advanced xpath
+Parent to child xpath:
+syntax:
+parent xpath/ child xpath or tagName
+//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a
+
+child to parent xpath:
+syntax:
+child xpath/parent::tag name of the parent tag
+//input[@id='username']/parent::p
+
+or
+//label[text()='Username']/..
+
+GrandParent  to Grandchild xpath:
+syntax:
+Grandparent xpath//grand child xpath
+//form[@id='login']//input[@id='username']
+
+GrandChild to Grandparent xpath
+syntax:
+grandchild xpath /ancestor::tag name of grand parent tag
+//label[text()='Username']/ancestor::form
+or
+//label[text()='Username']/../..
+
+Elder sibling to younger sibling
+syntax:
+Elder sibling xpath/following-sibling::tag name of younger sibling 
+//label[text()='Password']/following-sibling::input
+
+Younger sibling to elder sibling:
+syntax:
+young xpath /preceding-sibling::tag name of elder sibling xpath
+//input[@class='decorativeSubmit']/preceding-sibling::label
+
+Elder cousin to younger cousin
+syntax:
+elder xpath /following::younger cousin xpath or tagName
+//label[text()='Username']/following::input
+
+Younger cousin to elder cousin
+syntax:
+younger cousin xpath/ preceding::tag name of elder cousin xpath or tagName
+//input[@class='decorativeSubmit']/preceding::label
+
+
+
+
+
+
+
