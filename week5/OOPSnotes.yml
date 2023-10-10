@@ -1,0 +1,54 @@
+
+OOPS
+======
+
+Object Oriented Programming Language
+
+
+Inheritance:
+Definition: Inheritance is a mechanism that allows one class (a subclass or derived class) to inherit the properties and behaviors of another class (a superclass or base class).
+Purpose: It promotes code reuse by allowing you to create new classes based on existing ones. Subclasses can extend or modify the behavior of their parent classes, facilitating hierarchical relationships.
+Example: A Vehicle class might be a superclass, and specific vehicle types like Car and Bicycle could be subclasses that inherit properties and methods from the Vehicle class.
+
+Polymorphism:
+Definition: Polymorphism means that objects of different classes can be treated as objects of a common superclass. It allows you to write code that works with objects of different types without knowing their specific classes.
+Purpose: Polymorphism enhances code flexibility and extensibility by enabling the use of a common interface for objects with varying implementations.
+Example: A Shape superclass might define a method called calculateArea(), and various subclasses like Circle and Rectangle implement this method in their own unique ways.
+
+Single level Inheritance:
+ one class to another class
+
+ Parent class extends Child class
+
+Multi Level Inheritance:
+
+Gp class extends P class 
+P class extends C class
+
+Polymorphism:
+============
+
+two types
+1.Method overloading /static poly/compile time poly/early binding
+2.method overriding/dynamic poly/run time poly/late binding
+
+
+overloading -i can have 2 or more same mathods inside the smae class but with different input
+args 
+class{
+
+public void add(){
+
+}
+public void add(){
+
+}
+
+public void add(int a)
+}
+
+
+public void add(int a,int b){
+
+}
+

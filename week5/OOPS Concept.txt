@@ -1,0 +1,117 @@
+Oops:
+ Oops standard for Object oriented programming language.
+It has four concept.
+ 1.Abstraction
+ 2.Inheritance
+ 3.Plymorphism
+ 4.Encapsulation
+
+Abstraction:
+ hidding the internal details and showing essential (or) functionality to the user.
+we can achieve abstraction in two ways.
+  1.Interface
+  2.Abstract class
+
+Interface:
+   --> Design --->Architec
+1.Design first
+2.UnImplement method, End with semicolon(;)
+Example from java:
+List, Set
+Example from Selenium:
+WebDriver, SearchContext, WebElement
+
+Abstract Class:
+  1,abstract is a Non-Access modifier
+  2,Abstract class is a restrict class, we can not create an object
+ 3.Abstract methods does not have body, The method will be
+ implemented by sub class(Inheriting sub class).
+ 4.Abstact class have both Implemented and 
+ UnImplemented method
+
+Example from java:
+AbstractList , AbstractCollection
+Example from Selenium:
+By
+
+PolyMorphism:
+
+poly -many
+morphism --multiple form of implementation
+1.Method overloading/ static polymorphism/ satic binding
+  same class same methods but the aruguments should be different
+ example java:
+  println(), add()-> list
+example selenium:
+ driver.switchTo().frame(Int index);
+ driver.switchTo().frame(String nameOrId);
+ driver.switchTo().frame(WebElement element);
+
+Method Overriding/RunTimePolyMorphism
+ Different class with same method name but the class should be inherited.
+selenium:
+   quit()
+ java:
+  .equals()
+
+Inheritance:
+ Inheriting the variables and methods from super class to sub class
+
+types:
+  Single Inheritance
+  Multiple Inheritance
+  MultiLevel Inheritance
+
+Single Inheritance:
+Example selenium:
+ ChromeDriver extends ChromiumDriver
+Example Java:
+NoSuchElementException extends RunTimeException
+
+MultiLevel Inheritance:
+Example selenium:
+ ChromeDriver extends ChromiumDriver
+ ChromiumDriver extends RemoteWebDriver
+Example Java:
+NoSuchElementException extends RunTimeException
+RunTimeException extends Exception
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
