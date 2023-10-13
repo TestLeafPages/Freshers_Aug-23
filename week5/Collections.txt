@@ -1,0 +1,65 @@
+             Collections
+ Collection of individuals objects
+Collection --->Interface
+Colections --->Class
+  Single Dimentional Array
+List --->Interface
+Set  --->Interface
+
+Multi Dimentional Array
+Map --->Interface 
+
+primitive 
+datatypes  Wrapper class
+int        Integer
+float      Float
+long       Long
+double     Double
+short      Short
+byte       Byte
+boolean    Boolean
+char       Character
+
+List Properties:
+1.Maintain the insertion order
+2,Allow duplicate values
+
+how will you declare a List
+List<> 
+<> --generic
+List<String> obj=new ArrayList<String>();
+List Implementation Class:
+1.ArrayList
+2.LinkedList
+
+
+
+List method:
+add() --> To add the element in list
+
+set peoperties :
+1.Does not allows duplicate
+2.May or maynot be maintain the insertion order
+
+Implementation class:
+1.HashSet   -- hashing Algorithm- random output
+2.TreeSet   -- Ascii order 
+3.LinkedHashSet -- Insertion order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
