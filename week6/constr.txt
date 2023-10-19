@@ -1,0 +1,113 @@
+Constructor
+1.Constructor is a special kind of method, it is used to initialize the object
+2.Class name must be same name as constructor
+3.Does not have return type
+4.If we dont have any constructor jvm will provide 
+default constructor
+	`	
+Constructor Types:
+1.Default constructor
+2.Parameterized constructor
+
+
+this: 
+this is a java keyword, this keyword represents current instance of a class
+super:
+super is a keyword, super keywords represents  parent instance of a class.
+
+
+
+
+
+
+
+
+
+
+Target Locators
+TargetLocators---> Interface
+             Implementation class
+TargetLocators--->RemoteTargetLocators--> class
+
+1.Alert
+2.Frame
+3.Window handling
+
+
+
+Alert
+    Alert is a small message box which display on screen notification, or ask  some kind of information to the user,It may used warning purpose as well.
+
+Alert --> Interface
+Alert --> Implematation -->RemoteAlert
+
+switchTo() --return type --> TargetLocator
+
+Types of An Alert:
+1.Model Dialogue
+2.Non-Model Dialogue
+
+Model Dialogue:
+  1.We can not inspect in dom
+  2.Untill handle the alert we can not interact with any webelement
+    1.Simple Alert
+    2.confirmation Alert
+    3.Prompt Alert 
+
+Alert method:
+accept() -- This method used to click on OK button
+dismiss() --This method used to click on CANCEL button
+sendKeys() -- This method used to send the data in textbox
+getText() --This method used to retrieve the text from an alert
+
+
+
+2.Non-Model Dialogue
+
+
+
+
+
+
+Alert --> build by JavaScript
+
+
+
+
+Browser Interactions
+get()
+close()
+getCurrentUrl()
+getTitle()
+
+Element Interactions
+sendKeys()
+click()
+clear()
+getText()
+getAttribute()
+
+
+frame
+<html>
+<head> </head>
+<body>  </body>
+<iframe>  
+<html>
+<head> </head>
+<body>  </body>
+</iframe>
+</html>
+
+
+
+driver.switchTo().frame(int Index);
+driver.switchTo().frame(String NameOrId);
+driver.switchTo().frame(WebElement element);
+
+
+
+
+
+
+
