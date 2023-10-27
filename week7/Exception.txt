@@ -1,0 +1,38 @@
+Exception:
+Exception is an abnormal condition which will interupt the normal flow execution
+
+Why are we handle it?
+To enable the execution
+
+Types of  Exception
+1.Runtime Exception
+2.CompileTime Exception
+
+
+final:
+Final is a keyword and Non-access modifiers
+we can able to use it  in  class, method and variable 
+class--> If you are declaring the final keyword in class level, we can not inherit with another class.
+method --> If you are declaring final keywords in method level, The method can be overloaded but it  can not overriden
+variables --> If you are declaring final keyword as 
+variable level that variable can not be modified.which means we can not be overloaded and overridden
+
+
+finally:
+  finally is a block of code, Even though the exception occurs, The finally block will execute.
+we can not use finally block alone, It  should be followed by try or catch block
+
+finalize:
+   finalize() method in Java is a method of the Object class that is used to perform cleanup activity before destroying any object. It is called by Garbage collector before destroying the objects from memory. finalize() method is called by default for every object before its deletion.
+
+Difference between throw and throws?
+ 1.throw and throws both are java keywords
+ throw                          throws
+we can able to throw      throws it is a method 
+exception explicitly      signature  which is used to                                     handle that exception
+
+At that time we can throw   At that time we can handle more
+single exception only       than one exception
+
+
+
