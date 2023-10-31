@@ -1,0 +1,83 @@
+Axis xpath / Advanced xpath
+parent to child xpath
+parent xpath / child xpath
+(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)[1]
+child to parent
+//input[@class=' x-form-text x-form-field  x-form-invalid']/parent::div
+
+GrandParent to grandchild
+grandparent xpath / grandchild xpath
+(//form[@id='login']//input)[1]
+
+Grandchild to grandparent xpath
+//input[@id='username']/ancestor::form
+//input[@id='username']/../..
+
+Elder sibling to younger sibling:
+//label[text()='Username']/following-sibling::input
+
+younger sibling to elder
+//input[@id='username']/preceding-sibling::label
+
+elder cousin to younger cousin
+(//span[text()='From Lead']/following::img)[1]
+
+younger cousin to elder cousin
+TestNG 
+    Test Next Generation
+     
+Advantages:
+1.To run multiple testcase sequencely
+2.To run multiple testcase parallel
+3.cross browser testing
+4.To generate  html report
+5.To get the status of testcase
+
+Convert the script into TestNG testcase
+1.remove main method and convert normal method
+   public void methodName(){
+    ------------ 
+    }
+2.On top of the method put @Test annotaions
+
+3.@Test import from  org.testng.annotations.Test;
+
+
+verbose --> is a attribute, to get the log in console
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.4.0</version>
+</dependency>
+
+@BeforeSuite
+   @BeforeTest
+       @BeforeClass
+           @BeforeMethod
+                  @Test    --->Mandatory annotaions remaining are optionals
+           @AfterMethod
+       @Afterclass
+   @AfterTest
+@AfterSuite
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
